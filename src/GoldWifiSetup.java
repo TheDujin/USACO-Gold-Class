@@ -26,7 +26,10 @@ public class GoldWifiSetup {
 	    	routers.add(new Router(cow, 0, cowarray));
 		}
 	    boolean madeChange = true;
-	    while (madeChange)
+	    while (madeChange) {
+	    	madeChange = false;
+	    	
+	    }
 	    
 	    //out.println(i1+i2);
 	    out.close();
